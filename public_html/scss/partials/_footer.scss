@@ -1,11 +1,63 @@
 
 $footer-bg: $purple;
 $footer-text: $white;
+$footer-font: $josefin;
+$footer-link-color: $green;
 
 footer{
     padding: 30px 0;
     background-color: $footer-bg;
+    
+    ul{
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 30px;
+        li{
+            a{
+                display: block;
+                text-align: center;
+                padding: 5px 0;
+                color: $footer-text;
+                font-family: $josefin;
+                font-weight: $font-bold;
+                font-size: 1.8rem;
+                
+                &:hover, &.active{
+                    color: $footer-link-color;
+                }
+            }
+        } // li end
+    } // ul end
+    
+    .copyright{
+        text-align: center;
+        color: $footer-text;
+    }
 }
-footer a, footer p{
-    color: $footer-text;
+
+@media(min-width: 768px){
+    footer{
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                a{
+                    padding: 5px 20px;
+                }
+            } // li end
+        } // ul end
+    }
+}
+
+@media(min-width: 992px){
+    footer{
+        ul{
+            li{
+                a{
+                    padding: 5px 30px;
+                }
+            } // li end
+        } // ul end
+    }
 }
