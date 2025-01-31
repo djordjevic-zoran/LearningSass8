@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* FONTS */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -324,8 +326,48 @@ html {
   width: 95%;
   max-width: 1200px; }
 
+body {
+  font-size: 1.6rem;
+  background-color: #eeeeee;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Lato", serif; }
+
 header {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background-color: #d61ad9; }
+  header .branding {
+    text-align: center; }
+    header .branding a {
+      color: #ffffff; }
+  header nav ul {
+    list-style: none;
+    padding-left: 0; }
+    header nav ul li a {
+      display: block;
+      padding: 5px 0;
+      color: #ffffff;
+      text-align: center;
+      font-family: "Josefin Sans", serif;
+      text-transform: uppercase;
+      font-weight: 700; }
+      header nav ul li a:hover, header nav ul li a.active {
+        color: #07fa3c; }
+
+@media (min-width: 768px) {
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .container nav ul {
+      display: flex;
+      margin: 0; }
+      header .container nav ul li a {
+        padding: 5px; } }
+
+@media (min-width: 992px) {
+  header .container nav ul li a {
+    padding: 5px 15px; } }
 
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -376,6 +418,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Author     : ZORAN
 */
 footer {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background-color: #d61ad9; }
+
+footer a, footer p {
+  color: #ffffff; }
 
 /*# sourceMappingURL=theme.css.map */

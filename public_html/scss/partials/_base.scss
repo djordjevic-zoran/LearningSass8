@@ -1,4 +1,10 @@
 
+$default-bg: $light-gray;
+$default-font-color: $black;
+$default-font: $lato;
+$default-weight: $font-regular;
+
+
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -18,4 +24,11 @@ html{
     margin: 0 auto;
     width: 95%;
     max-width: 1200px;
+}
+body{
+    font-size: 1.6rem;
+    background-color: $default-bg;
+    color: $default-font-color;
+    font-weight: $default-weight;
+    font-family: $default-font;
 }
