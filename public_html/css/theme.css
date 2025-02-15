@@ -426,14 +426,29 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Created on : Jan 30, 2025, 11:43:00 PM
     Author     : ZORAN
 */
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Jan 30, 2025, 11:43:20 PM
-    Author     : ZORAN
-*/
+.coursesSection {
+  padding: 50px 0; }
+  .coursesSection table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%; }
+    .coursesSection table caption {
+      text-align: left;
+      font-style: italic;
+      margin-bottom: 10px; }
+    .coursesSection table th, .coursesSection table td {
+      padding: 10px 20px;
+      border: 1px solid #000000; }
+    .coursesSection table thead {
+      background-color: #d61ad9; }
+      .coursesSection table thead th {
+        color: #ffffff;
+        border: 1px solid #ffffff; }
+  .coursesSection tbody tr:nth-of-type(even) {
+    background-color: #444444; }
+  .coursesSection tbody tr:hover {
+    background-color: #fac507; }
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
