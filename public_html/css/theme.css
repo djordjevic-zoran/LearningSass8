@@ -1,9 +1,10 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .btn-yellow, .btn-purple, .btn-blue, .btn-green, .btn-orange, .btn-light {
   display: inline-block;
   padding: 15px 25px;
-  border-radius: 5px;
+  /*    border-radius: 5px;*/
+  border-radius: 0px;
+  border-radius: 0px;
   border: none; }
 
 .btn-yellow {
@@ -364,7 +365,9 @@ body {
   font-family: "Lato", serif; }
 
 header {
-  padding: 30px 0;
+  /*    padding: 30px 0;
+    background-color: $header-bg;*/
+  padding: 50px 0 50px;
   background-color: #d61ad9; }
   header .branding {
     text-align: center; }
@@ -399,35 +402,26 @@ header {
   header .container nav ul li a {
     padding: 5px 15px; } }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Jan 30, 2025, 11:42:12 PM
-    Author     : ZORAN
-*/
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Jan 30, 2025, 11:42:21 PM
-    Author     : ZORAN
-*/
-.service-section {
-  padding: 30px 0; }
+.home-section {
+  padding: 20px 0 20px;
+  background-color: transparent; }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Jan 30, 2025, 11:43:00 PM
-    Author     : ZORAN
-*/
+.about-section {
+  padding: 30px 0 30px;
+  background-color: #ffffff; }
+
+.service-section {
+  padding: 100px 0 100px;
+  background-color: transparent; }
+
+.comment-section {
+  padding: 50px 0 50px;
+  background-color: #ffffff; }
+
 .coursesSection {
-  padding: 50px 0; }
+  /*    padding: 50px 0;*/
+  padding: 150px 0 150px;
+  background-color: transparent; }
   .coursesSection table {
     border: 1px solid #000000;
     border-collapse: collapse;
@@ -449,16 +443,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
   .coursesSection tbody tr:hover {
     background-color: #fac507; }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Jan 30, 2025, 11:43:36 PM
-    Author     : ZORAN
-*/
+.contact-section {
+  padding: 40px 0 40px;
+  background-color: #ffffff; }
+
 footer {
-  padding: 30px 0;
+  /*    padding: 30px 0;
+    background-color: $footer-bg;*/
+  padding: 50px 0 50px;
   background-color: #d61ad9; }
   footer ul {
     list-style: none;

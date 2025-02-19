@@ -11,7 +11,9 @@ $btn-light-gray: $dark-gray;
 %btn{
     display: inline-block;
     padding: 15px 25px;
-    border-radius: 5px;
+/*    border-radius: 5px;*/
+@include radius(15px);
+@include sectionRadius(25px, 5px, 25px, 5px);
     border: none;
 }
 

@@ -9,7 +9,8 @@ $tbody-hover-bg: $cyan;
 
 
 .coursesSection{
-    padding: 50px 0;
+/*    padding: 50px 0;*/
+  @include pedd-bg(150px, 150px, transparent);
     
     table{
         border: $table-border;
