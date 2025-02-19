@@ -20,30 +20,30 @@ $btn-light-gray: $dark-gray;
 .btn-yellow{
     @extend %btn;
     background-color: $btn-yellow;
-    color: $btn-default-color;
+    color: acommadation($btn-yellow);
 }
 .btn-purple{
     @extend %btn;
     background-color: $btn-purple;
-    color: $btn-default-color;
+    color: acommadation($btn-purple);
 }
 .btn-blue{
     @extend %btn;
     background-color: $btn-blue;
-    color: $btn-default-color;
+    color: acommadation($btn-blue);
 }
 .btn-green{
     @extend %btn;
     background-color: $btn-green;
-    color: $btn-default-color;
+    color: acommadation($btn-green);
 }
 .btn-orange{
     @extend %btn;
     background-color: $btn-orange;
-    color: $btn-default-color;
+    color: acommadation($btn-orange);
 }
 .btn-light{
     @extend %btn;
     background-color: $btn-light-gray;
-    color: $btn-default-color;
+    color: acommadation($btn-light-gray);
 }
