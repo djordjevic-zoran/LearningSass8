@@ -1,11 +1,24 @@
 
-$btn-default-color: $white;
+/*$btn-default-color: $white;
 $btn-yellow: $yellow;
 $btn-purple: $purple;
 $btn-blue: $blue;
 $btn-green: $green;
 $btn-orange: $orange;
-$btn-light-gray: $dark-gray;
+$btn-light-gray: $dark-gray;*/
+
+$learning: (
+
+'yellow'    : $yellow,
+'purple'    : $purple,
+'blue'       : $blue,
+'green'    : $green,
+'orange'  : $orange,
+'light'       : $light-gray,
+'dark-gray'  : $dark-gray
+);
+
+
 
 
 %btn{
@@ -17,7 +30,19 @@ $btn-light-gray: $dark-gray;
     border: none;
 }
 
-.btn-yellow{
+@each $key, $value in $learning{
+    .btn-#{$key}{
+        @extend %btn;
+        background-color: $value;
+        color: acommadation($value);
+        &:hover{
+            background-color: darken($value, 10%);
+        }
+    }
+}
+
+
+/*.btn-yellow{
     @extend %btn;
     background-color: $btn-yellow;
     color: acommadation($btn-yellow);
@@ -46,4 +71,4 @@ $btn-light-gray: $dark-gray;
     @extend %btn;
     background-color: $btn-light-gray;
     color: acommadation($btn-light-gray);
-}
+}*/
